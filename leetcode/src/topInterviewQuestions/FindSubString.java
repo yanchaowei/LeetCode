@@ -1,3 +1,5 @@
+package topInterviewQuestions;
+
 import java.util.HashMap;
 
 /**
