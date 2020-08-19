@@ -1,4 +1,4 @@
-package myProblemList.滑动窗口;
+package myProblemList.slidingWindow;
 
 public class _1004_Max_Consecutive_Ones_III {
     //    翻译：找出仅含有K个 0 的最长子数组

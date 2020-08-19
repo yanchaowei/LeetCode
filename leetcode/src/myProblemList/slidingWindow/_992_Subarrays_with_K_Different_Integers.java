@@ -1,4 +1,4 @@
-package myProblemList.滑动窗口;
+package myProblemList.slidingWindow;
 
 import java.util.HashMap;
 import java.util.Map;

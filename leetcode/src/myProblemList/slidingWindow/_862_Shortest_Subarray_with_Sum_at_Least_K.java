@@ -1,4 +1,4 @@
-package myProblemList.滑动窗口;
+package myProblemList.slidingWindow;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

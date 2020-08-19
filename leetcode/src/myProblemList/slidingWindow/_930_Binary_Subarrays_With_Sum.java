@@ -1,4 +1,4 @@
-package myProblemList.滑动窗口;
+package myProblemList.slidingWindow;
 
 public class _930_Binary_Subarrays_With_Sum {
 

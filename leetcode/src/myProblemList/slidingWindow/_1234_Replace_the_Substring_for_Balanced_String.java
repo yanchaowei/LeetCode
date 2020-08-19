@@ -1,4 +1,4 @@
-package myProblemList.滑动窗口;
+package myProblemList.slidingWindow;
 
 public class _1234_Replace_the_Substring_for_Balanced_String {
     public int balancedString(String s) {

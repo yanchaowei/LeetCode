@@ -1,4 +1,4 @@
-package myProblemList.滑动窗口;
+package myProblemList.slidingWindow;
 
 public class _1248_Count_Number_of_Nice_Subarrays {
     public int numberOfSubarrays(int[] nums, int k) {

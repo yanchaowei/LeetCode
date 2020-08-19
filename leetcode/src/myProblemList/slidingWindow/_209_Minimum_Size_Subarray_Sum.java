@@ -1,24 +1,18 @@
-package myProblemList.滑动窗口;
-
-import java.util.ArrayDeque;
-import java.util.Deque;
+package myProblemList.slidingWindow;
 
 public class _209_Minimum_Size_Subarray_Sum {
     public int minSubArrayLen(int s, int[] nums) {
-        if(nums == null || nums.length == 0) return 0;
-        int l = 0, r = 0;
-        int sum = 0;
-        int res = Integer.MAX_VALUE;
-        while(r < nums.length) {
-            sum += nums[r];
-            while(sum >= s) {
-                res = Math.min(res, r - l + 1);
-                sum -= nums[l];
-                l++;
+        int i = 0;
+        int n = nums.length;
+        int res = n + 1;
+        for(int j = 0; j < n; j++) {
+            s -= nums[j];
+            while(s <= 0) {
+                res = Math.min(res, j - i + 1) ;
+                s += nums[i++];
             }
-            r++;
         }
-        return res == Integer.MAX_VALUE ? 0 : res;
+        return res == n + 1 ? 0 : res;
     }
 
     public int minSubArrayLen2(int s, int[] nums) {
